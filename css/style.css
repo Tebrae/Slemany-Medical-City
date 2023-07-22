@@ -887,7 +887,6 @@ body {
 }
 
 
-
 @media (max-width: 760px) {
 
 
@@ -900,9 +899,11 @@ body {
 
   }
 
-
-.doctors-section {
+.sectionh2 {
   display: none;
+}
+.doctors-section {
+  display: none !important;
 }
 
 #cont {
