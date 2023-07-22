@@ -1,0 +1,31 @@
+.medical-services {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.card {
+  width: calc(33.33% - 20px);
+  margin-bottom: 30px;
+  background-color: #f0f0f0;
+  border-radius: 10px; /* Apply a border radius to the cards */
+  padding: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px; /* Apply a border radius to the images */
+  display: block;
+  margin: 0 auto 10px;
+  padding-bottom: 10px;
+}
+
+.card h3 {
+  text-align: center;
+  margin-top: 10px;
+}
