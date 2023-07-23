@@ -11,11 +11,6 @@
   margin: 0 auto;
 }
 
-.about-banner {
-  padding-top: 80px !important;
-  padding-right: 20px;
-}
-
 .card {
   width: calc(33.33% - 20px);
   margin-bottom: 30px;
@@ -47,4 +42,16 @@
   #service-img {
     display: none;
   }
+
+  .about-banner {
+    padding-top: 80px !important;
+
+    width: 150px !important;
+  }
+}
+
+.about-banner {
+  padding-top: 80px !important;
+
+  width: 150px !important;
 }
