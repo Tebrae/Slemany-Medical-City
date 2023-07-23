@@ -47,6 +47,9 @@
    * typography
    */
 
+   * {
+  font-family: "Montserrat", sans-serif !important;
+}
 
 
   /* @font-face {
@@ -606,7 +609,7 @@ body {
 .cta .section-title {
   color: var(--white);
   font-size: var(--fs-3);
-  margin-block-end: 30px;
+  /* margin-block-end: 30px; */
 }
 
 .cta .btn {
@@ -1561,6 +1564,10 @@ bordy {overflow: hidden};
   display: none;
 }
 
+#service11 {
+  display: none;
+}
+
 
 @media (max-width: 768px) {
 
@@ -1579,3 +1586,138 @@ bordy {overflow: hidden};
   background-color: #007881 !important;
 }
 
+#footer-item-n1 {
+padding-right: 30px;
+
+}
+
+.footer {
+	width: 100%;
+	background: #007881;
+	display: block;
+}
+
+.inner-footer {
+	width: 95%;
+	margin: auto;
+	padding: 20px 10px;
+	display: flex;
+	flex-wrap: wrap;
+	box-sizing: border-box;
+	justify-content: center;
+}
+
+.footer-items {
+	width: 25%;
+	padding: 10px 20px;
+	box-sizing: border-box;
+}
+
+h1 {
+	padding: 10px 0;
+	font-size: 25px;
+	color: #fff;
+
+}
+
+.footer-items p {
+	color: #fff;
+	font-size: 16px;
+	text-align: justify;
+	line-height: 25px;
+}
+
+h2 {
+	margin: 10px 0;
+	color: #fff;
+	font-size: 16px;
+	font-weight: lighter;
+	text-transform: uppercase;
+}
+
+.border {
+	height: 2px;
+	width: 40px;
+	background: #ff8189;
+}
+
+.footer-items ul {
+	list-style: none;
+	color: #fff;
+	font-size: 15px;
+	letter-spacing: 0.5px;
+}
+
+.para-foot {
+  padding-top: 20px;
+  color: #eee8e8;
+}
+
+.footer-items ul a {
+	text-decoration: none;
+	outline: none;
+	color: #fff;
+	transition: 0.3s;
+}
+
+.footer-items ul a:hover {
+	color: rgb(132, 123, 123);
+}
+
+.footer-items  ul li {
+	margin: 10px 0;
+	height: 25px;
+}
+
+.footer-items li i {
+	margin-right: 15px;
+}
+
+.social-media {
+	width: 100%;
+	color: #fff;
+	text-align: center;
+}
+
+.social-media a {
+	text-decoration: none;
+}
+
+.social-media i {
+	height: 15px;
+	width: 15px;
+	margin: 20px 5px;
+	padding: 10px;
+	color: #fff;
+	border-radius: 50%;
+	border: 1px solid grey;
+	transition: 0.3s;
+}
+
+.social-media i:hover {
+	background: grey;
+}
+
+.footer-bottom {
+	padding: 10px;
+	background: #007881;
+	color: #fff;
+	font-size: 12px;
+}
+
+@media screen and (max-width: 1085px) {
+	.footer-items {
+		width: 50%;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.footer-items {
+		width: 100%;
+	}
+}
+
+
+.social-list {
+  padding-bottom: 20px;
+}
