@@ -34,6 +34,10 @@
   margin-top: 10px;
 }
 
+#service-img {
+  padding-right: 30px;
+}
+
 #servi {
   margin-bottom: 80px;
 }
@@ -44,14 +48,50 @@
   }
 
   .about-banner {
-    padding-top: 80px !important;
-
     width: 150px !important;
+  }
+
+  .about-content {
+    margin-bottom: 80px !important;
   }
 }
 
-.about-banner {
+#section1ab {
   padding-top: 80px !important;
-
   width: 150px !important;
+}
+
+#servicenew {
+  width: 350px !important;
+}
+
+.about-content {
+  margin-bottom: 80px !important;
+}
+
+#about55 {
+  margin-right: 100px !important;
+}
+
+@media (max-width: 760px) {
+  #img22 {
+    display: none;
+  }
+}
+
+#section1ab {
+  padding-top: 80px !important;
+  width: 150px !important;
+}
+
+#servicenew {
+  width: 350px !important;
+}
+
+.about-content {
+  margin-bottom: 80px !important;
+}
+
+#about55 {
+  margin-right: 60px !important;
 }
