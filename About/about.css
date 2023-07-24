@@ -10,7 +10,6 @@
 }
 
 body {
-  font-family: "Muli", sans-serif;
   background-color: #f0f0f0;
 }
 
@@ -18,14 +17,18 @@ body {
   padding-bottom: 100px !important;
 }
 
+#about99 {
+  margin-right: 30px;
+}
+
 .about-banner {
   padding-top: 120px;
 }
 
-h1 {
+/* h1 {
   margin: 50px 0 30px;
   text-align: center;
-}
+} */
 
 .cta-banner {
   height: 400px;
@@ -93,4 +96,8 @@ hr {
   display: flex;
   align-content: center;
   justify-content: center;
+}
+
+#servicenew {
+  width: 350px !important;
 }
