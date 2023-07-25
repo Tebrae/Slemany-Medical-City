@@ -95,3 +95,84 @@
 #about55 {
   margin-right: 60px !important;
 }
+
+.about {
+  padding-block-end: 0;
+}
+
+.about .container {
+  display: grid;
+  gap: 20px;
+  overflow: hidden;
+}
+
+.about .section-text {
+  margin-block: 20px 35px;
+}
+
+.tab-list {
+  padding-bottom: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px 15px;
+}
+
+.tab-btn {
+  background-color: darkcyan;
+  color: white;
+  padding: 7px 30px;
+  border-radius: var(--radius-6);
+  font-weight: var(--fw-700);
+}
+
+.tab-btn.active {
+  background-color: darkcyan;
+  color: white;
+}
+
+.tab-text {
+  color: var(--midnight-green);
+  margin-block: 35px;
+}
+
+.about-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-block-end: 10px;
+}
+
+.about-item ion-icon {
+  color: darkcyan;
+  font-size: 2rem;
+  flex-shrink: 0;
+}
+
+/*====================
+      Listing
+====================*/
+.listing {
+  background-color: var(--alice-blue);
+}
+
+.listing-card {
+  padding: 25px 16px;
+  display: flex;
+  gap: 20px;
+  border: 2px solid var(--middle-blue-green_40);
+  border-radius: var(--radius-12);
+  transition: var(--transition-1);
+}
+
+.listing-card:is(:hover, :focus-visible) {
+  border-color: var(--verdigris);
+}
+
+.listing-card .card-title {
+  margin-block-end: 5px;
+  font-family: var(--ff-oswald);
+}
+
+.listing-card .card-text {
+  color: var(--midnight-green);
+}

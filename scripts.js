@@ -21,8 +21,6 @@ for (let i = 0; i < imgBox.length; i++) {
   }
 }
 
-
-
 var swiper = new Swiper(".slider-content", {
   slidesPerView: 3,
   spaceBetween: 25,
@@ -52,3 +50,38 @@ var swiper = new Swiper(".slider-content", {
   },
 });
 
+/*==============================
+        About Tab List
+==============================*/
+const visionBtn = document.querySelector("[data-tab-vision]");
+const missionBtn = document.querySelector("[data-tab-mission]");
+const strategyBtn = document.querySelector("[data-tab-strategy]");
+const tabtext = document.querySelector("[data-tab-text]");
+
+const visionBtnActive = function () {
+  visionBtn.classList.add("active");
+  missionBtn.classList.remove("active");
+  strategyBtn.classList.remove("active");
+  tabtext.innerHTML =
+    "Aliquam faucibus, odio nec commodo aliquam, neque felis placerat dui, a porta ante lectus dapibus est. Aliquam a bibendum mi, sed condimentum";
+};
+
+const missionBtnActive = function () {
+  missionBtn.classList.add("active");
+  visionBtn.classList.remove("active");
+  strategyBtn.classList.remove("active");
+  tabtext.innerHTML =
+    "Faucibus, odio nec commodo aliquam, neque felis placerat dui, a porta ante lectus dapibus est. Aliquam a bibendum mi,";
+};
+
+const strategyBtnActive = function () {
+  strategyBtn.classList.add("active");
+  visionBtn.classList.remove("active");
+  missionBtn.classList.remove("active");
+  tabtext.innerHTML =
+    "Odio nec commodo aliquam, neque felis placerat dui, a porta ante lectus dapibus est. Aliquam a bibendum mi, sed condimentum";
+};
+
+addEventOnElem(missionBtn, "click", missionBtnActive);
+addEventOnElem(visionBtn, "click", visionBtnActive);
+addEventOnElem(strategyBtn, "click", strategyBtnActive);
