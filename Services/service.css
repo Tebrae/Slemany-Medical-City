@@ -48,7 +48,11 @@
   }
 
   .about-banner {
-    width: 350px !important;
+    width: 320px !important;
+  }
+
+  .servicenew {
+    width: 320px !important;
   }
 
   .about-content {
