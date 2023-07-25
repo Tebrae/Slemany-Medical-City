@@ -52,7 +52,8 @@
   }
 
   .servicenew {
-    width: 320px !important;
+    width: 150px !important;
+    height: 200px;
   }
 
   .about-content {
