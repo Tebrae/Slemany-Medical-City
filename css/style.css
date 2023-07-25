@@ -946,9 +946,8 @@ body {
     --fs-1: 4.2rem;
   }
 
-  /**
-   * REUSED STYLE
-   */
+
+
 
   .header-bottom.active {
     top: -125px;
@@ -1031,6 +1030,7 @@ bordy {overflow: hidden};
    * CUSTOM PROPERTY
    */
 
+
   :root {
     /**
      * typography
@@ -1085,10 +1085,8 @@ bordy {overflow: hidden};
     /**
      * typography
      */
-
     --fs-2: 4.8rem;
   }
-
   /**
    * RESET
    */
@@ -1574,6 +1572,8 @@ bordy {overflow: hidden};
   #service22{
     display: block;
   }
+
+
 }
 
 
@@ -1709,7 +1709,19 @@ h1 {
 	.footer-items {
 		width: 50%;
 	}
+
 }
+
+
+@media screen and (min-width: 1085px) {
+
+ .doctor-cardsy {
+    display: none !important;
+  }
+
+}
+
+
 
 @media screen and (max-width: 600px) {
 	.footer-items {
