@@ -15,7 +15,7 @@
   width: calc(33.33% - 20px);
   margin-bottom: 30px;
   background-color: #f0f0f0;
-  border-radius: 10px; /* Apply a border radius to the cards */
+  border-radius: 10px;
   padding: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
@@ -23,7 +23,7 @@
 .card img {
   width: 100%;
   height: auto;
-  border-radius: 10px; /* Apply a border radius to the images */
+  border-radius: 10px;
   display: block;
   margin: 0 auto 10px;
   padding-bottom: 10px;
@@ -34,14 +34,17 @@
   margin-top: 10px;
 }
 
-#service-img {
-  padding-right: 30px;
+@media (max-width: 768px) {
+  .card {
+    width: calc(50% - 20px);
+  }
 }
 
-#servi {
-  margin-bottom: 80px;
+@media (max-width: 480px) {
+  .card {
+    width: 100%;
+  }
 }
-
 @media (max-width: 480px) {
   #service-img {
     display: none;
@@ -49,9 +52,6 @@
 
   .about-banner {
     width: 320px !important;
-  }
-
-  .servicenew {
   }
 
   .about-content {
@@ -121,7 +121,7 @@
 }
 
 .tab-btn {
-  background-color: darkcyan;
+  background-color: ff8189;
   color: white;
   padding: 7px 30px;
   border-radius: var(--radius-6);
