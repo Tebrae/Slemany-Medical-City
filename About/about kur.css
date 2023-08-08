@@ -1,0 +1,6 @@
+body.rtl {
+  direction: rtl;
+  text-align: right;
+  font-family: "Helectrineue";
+  overflow-x: hidden;
+}

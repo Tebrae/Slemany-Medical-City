@@ -14,13 +14,16 @@
     - favicon
   -->
 
+
     <!-- <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml" /> -->
     <!--
     - custom css link
   -->
 
+
     <link rel="stylesheet" href="./css/style.css" />
     <link rel="stylesheet" href="./Doctors/style2.css" />
+      <link rel="stylesheet" href="./css/style Kur.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
@@ -34,7 +37,7 @@
      <script defer src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
 </head>
 
-  <body id="top">
+  <body id="top" class="rtl">
     <!--
     - #HEADER
   -->
@@ -69,6 +72,7 @@
                   >Services</a
                 >
               </li>
+
 
               <li>
                         <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -128,9 +132,9 @@
   <div class="lang-dropdown">
     <button class="lang-btn" id="lang-btn"><i class="fas fa-globe"></i></button>
     <div class="lang-dropdown-content">
-      <a class="lang-option" onclick="changeLanguage('English')" href="./index.html" >English</a>
-      <a class="lang-option" onclick="changeLanguage('Arabic')" href="./About/ - ar.html" >العربية </a>
-      <a class="lang-option" onclick="changeLanguage('Kurdish')" href="./index kur.html" >کوردی</a>
+      <a class="lang-option" onclick="changeLanguage('English')" href="index.html" >English</a>
+      <a class="lang-option" onclick="changeLanguage('Arabic')" href="index - ar.html" >العربية </a>
+      <a class="lang-option" onclick="changeLanguage('Kurdish')" href="./index - kur.html" >کوردی</a>
     </div>
   </div>
 
@@ -150,6 +154,10 @@
     }
   </script>
               </li>
+
+              <!-- <li>
+                <a href="#" class="navbar-link" data-nav-link>Services</a>
+              </li> -->
             </ul>
           </nav>
 
@@ -265,9 +273,6 @@
         <section class="doctors-section">
           <div class="container">
             <div class="icon">
-               <div class="imgBox" style="--i: 1" data-id="content1">
-                <img src="./assets/images/11.jpg" />
-              </div>
               <div class="imgBox" style="--i: 1" data-id="content1">
                 <img src="./assets/images/11.jpg" />
               </div>
@@ -281,9 +286,6 @@
                 <img src="./assets/images/4.JPG" />
               </div>
               <div class="imgBox" style="--i: 5" data-id="content5">
-                <img src="./assets/images/5.jpg" />
-              </div>
-               <div class="imgBox" style="--i: 5" data-id="content5">
                 <img src="./assets/images/5.jpg" />
               </div>
               <div class="imgBox" style="--i: 6" data-id="content6">
@@ -383,24 +385,6 @@
               </div>
 
               <div class="contentBox" id="content5">
-                <div class="card">
-                  <div class="imgBox">
-                    <img src="./assets/images/5.jpg" />
-                  </div>
-                  <div class="textBox">
-                    <h2>Dr. Mhamad Tahir<br /><span>Neurosurgeon</span></h2>
-                    <ul class="social">
-                      <li>
-                      <i class="">07703609877</i>
-                      </li>
-
-                    </ul>
-                  </div>
-                </div>
-              </div>
-
-
-     <div class="contentBox" id="content5">
                 <div class="card">
                   <div class="imgBox">
                     <img src="./assets/images/5.jpg" />
@@ -747,7 +731,6 @@
             }
           </style>
         </section>
-
 
 <section class="doctor-cardsy">
    <div class="slider-container swiper">

@@ -21,7 +21,7 @@
     <!--
     - google font link
   --></head>
-  <body id="top">
+  <body id="top" class="rtl">
     <!--
     - #HEADER
   -->
@@ -57,6 +57,88 @@
                 <a href="../Services/service.html" class="navbar-link" data-nav-link id="service11"
                   >Services</a
                 >
+              </li>
+
+
+              <li>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav text-center ml-auto">
+                <li>  <style>
+    /* CSS styles for the language selection */
+@font-face {
+  font-family: "nrt";
+  src: url("./assets/fonts/NRT-Reg.ttf") format("truetype");
+}
+
+    .lang-dropdown {
+      position: relative;
+      display: inline-block;
+    }
+
+    .lang-btn {
+       font-family: "nrt" !important;
+      background-color: #22767f;
+      color: white;
+      padding: 10px;
+      cursor: pointer;
+      border: none;
+      border-radius: 20px;
+    }
+
+    .lang-dropdown-content {
+   font-family: "nrt" !important;
+      display: none;
+      position: absolute;
+      background-color: #f9f9f9;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+      padding: 10px;
+    }
+
+    .lang-dropdown-content a {
+      display: block;
+      padding: 8px 0;
+      color: black;
+      text-decoration: none;
+    }
+
+
+    .lang-dropdown-content a:hover {
+      color: #22767f;
+    }
+
+
+    .lang-dropdown:hover .lang-dropdown-content {
+      display: block;
+    }
+  </style>
+</head>
+<li>
+  <div class="lang-dropdown">
+    <button class="lang-btn" id="lang-btn"><i class="fas fa-globe"></i></button>
+    <div class="lang-dropdown-content">
+      <a class="lang-option" onclick="changeLanguage('English')" href="index.html" >English</a>
+      <a class="lang-option" onclick="changeLanguage('Arabic')" href="index - ar.html" >العربية </a>
+      <a class="lang-option" onclick="changeLanguage('Kurdish')" href="./index - kur.html" >کوردی</a>
+    </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js"></script>
+  <script>
+    // JavaScript code for changing the language
+    function changeLanguage(language) {
+      const langBtn = document.getElementById('lang-btn');
+
+      // Update the language button icon
+      langBtn.innerHTML = '<i class="fas fa-globe"></i>';
+
+      // Add code here for changing the language based on the selected language
+
+      // Example code for displaying a success message
+      console.log(`Language changed to ${language}`);
+    }
+  </script>
               </li>
             </ul>
           </nav>
@@ -236,7 +318,6 @@
         <!--
         - #DOCTOR
       -->
-
         <!--
         - #CTA
       -->
